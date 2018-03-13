@@ -4,10 +4,55 @@
     <title>HTML/CSS Lab</title>
     <link rel="stylesheet" href="https://unpkg.com/basscss@8.0.1/css/basscss.min.css">
     <style>
-
+      .muted{
+        color:#999;
+      }
+      img{
+        width:30px;
+        height:30px;
+      }
+      .tweet{
+        width:400px;
+      }
+      .font-size{
+        font-size: .65em;
+      }
     </style>
   </head>
-  <body>
+  <body class="flex flex-center">
+    <div style="width: 600px" class="flex flex-column mt1 flex-center">
 
+      <div class="tweet mt1 mb2 mx-auto border-bottom flex">
+        <img class="rounded mb2 mr1 flex-none" src="https://avatars.githubusercontent.com/u/31254404">
+        <div class="flex flex-column">
+          <div class="flex flex.start h6">
+            <span class="bold mr1 font-size">Margret Zhu</span>
+            <span class="muted font-size">@margaretuzhu - Jun 22</span>
+          </div>  
+          <p class="font-size mt1">Thanks to the wonderful @learn_co community for helping me solve "Tic Tac Toe Move"! I would not have been able to do it without you guys!</p>
+        </div>
+      </div>
+      <div class="tweet mt1 mb2 mx-auto border-bottom flex">
+        <img class="rounded mb2 mr1" src="https://avatars.githubusercontent.com/u/25881824">
+        <div class="flex flex-column">
+          <div class="flex flex.start h6">
+            <span class="bold mr1 font-size">Flatiron School</span>
+            <span class="muted font-size">@FlatironSchool - Jun 10</span>
+          </div>  
+          <p class="font-size mt1">"How I learned to stop worrying and just commit (code)." Great post by @learn_co student @R_McNeely</p>
+        </div>
+      </div>
+      <div class="tweet mt1 mb2 mx-auto  border-bottom flex">
+        <img class="rounded mb2 mr1" src="https://avatars.githubusercontent.com/u/19769726">
+        <div class="flex flex-column">
+          <div class="flex flex.start h6">
+            <span class="bold mr1 font-size">Tech Crunch</span>
+            <span class="muted font-size">@TechCrunch - Jun 22</span>
+          </div>  
+          <p class="font-size mt1">Flatiron School teams up with Re:Coded to help Syrian refugees learn to code http:/tcrn.ch/1r2Dnwd by @sarahbuhur</p>
+        </div>
+      </div>
+          
+    </div>
   </body>
 </html>
